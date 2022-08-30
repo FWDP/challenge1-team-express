@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container-e {
+    max-width: 970px;
+    margin: 12px auto;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    box-sizing: content-box;
+}
+
+@media screen and (max-width: 768px) {
+    .container-e {
+        padding-right: 4vw;
+        padding-left: 4vw;
+        box-sizing: content-box;
+    }
+}
